@@ -6,11 +6,37 @@
     <title>Contact Form</title>
 </head>
 <body>
-   <div
-   >
-    <h2>Welcome to Code</h2>
+   <form>
+   
+    
     <h2>Contact us Form</h2>
-    <label for="Name">Name</label><input type="text" placeholder="Enter your Name">
-   </div> 
+    
+    <label for="Name">Name</label><input type="text" placeholder="Enter your Name"><br>
+    <label for="Email">Email</label><input type="email" placeholder="Enter Your Email"><br>
+    <label for="Contact">Contact Number</label><input type="number" placeholder="0"><br>
+   
+    <!-- <select> element is used to create a drop-down list
+    <option> tag defines an option in a select list-->
+    <label>Gender</label><select name="Gender" id="Gender"> 
+        <option value="select">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="nottosay">Not to Say</option>
+    </select> <br>
+    
+    <label>Date Of Birth</label><input type="date"><br>
+    <label>Rating</label><input type="radio">1<input type="radio">2<input type="radio">3<input type="radio">4<input type="radio">5<br>
+    Enter Your Message <br>
+    
+    <textarea cols="30" rows="4" placeholder="Enter Your Message"></textarea><br>
+    <input type="button" name="button" id="btn" value="Submit">
+    <input type="button" name="button" id="btn" value="Reset">
+    <br>
+
+    
+    <a href="#"><img src="./images/Youtube.jpg" height="28px" width="32px"></a>
+    <a href="#"><img src="./images/instagram.png" height="28px" width="32px"></a>
+    <a href="#"><img src="./images/Telegram.png" height="28px" width="32px"></a>
+   </form> 
 </body>
 </html>
